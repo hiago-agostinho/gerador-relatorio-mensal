@@ -1,75 +1,82 @@
-/* Home page styles */
-@font-face {
-    font-family: 'cakefont';
-    src: url('../font/cakedingbats-webfont.eot');
-    src: url('../font/cakedingbats-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/cakedingbats-webfont.woff2') format('woff2'),
-    url('../font/cakedingbats-webfont.woff') format('woff'),
-    url('../font/cakedingbats-webfont.ttf') format('truetype'),
-    url('../font/cakedingbats-webfont.svg#cake_dingbatsregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-body {
-    padding: 60px 0;
-}
-header {
-    margin-bottom: 60px;
-}
-img {
-    margin-bottom: 30px;
-}
-h1 {
-    font-weight: bold;
-}
-ul {
-    list-style-type: none;
-    margin: 0 0 30px 0;
-    padding-left: 25px;
-}
-a {
-    color: #0071BC;
-    text-decoration: underline;
-}
-hr {
-    border-bottom: 1px solid #e7e7e7;
-    border-top: 0;
-    margin-bottom: 35px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.text-center {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1C1C1C;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background-color: #363636;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
-.links a {
-    margin-right: 10px;
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
 }
-.release-name {
-    color: #D33C43;
-    font-weight: 400;
-    font-style: italic;
+
+.login-box p {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #fff;
 }
-.bullet:before {
-    font-family: 'cakefont', sans-serif;
-    font-size: 18px;
-    display: inline-block;
-    margin-left: -1.3em;
-    width: 1.2em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    vertical-align: -1px;
+
+form {
+    display: flex;
+    flex-direction: column;
 }
-.success:before {
-    color: #88c671;
-    content: "\0056";
-}
-.problem:before {
-    color: #d33d44;
-    content: "\0057";
-}
-.cake-error {
+
+.login-box .input-field {
+    border: 2px solid #1C1C1C;
     padding: 10px;
-    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 100%;
 }
-#url-rewriting-warning {
-    display: none;
+
+.login-box .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.login {
+    background-color: #007bff;
+    color: white;
+    padding: 1px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login:hover {
+    background-color: #0056b3;
+}
+
+.continue-with {
+    margin: 20px 0;
+    color: #666;
+    font-size: 14px;
 }

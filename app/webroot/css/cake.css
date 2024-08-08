@@ -1,6 +1,6 @@
-/* Miligram overrides */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
@@ -140,28 +140,6 @@ th {
     border-color: #ef5753;
 }
 
-/* Forms */
-.input.radio,
-.input.checkbox {
-    margin-bottom: 2.0rem;
-}
-.input.radio input,
-.input.checkbox input {
-    margin: 0;
-}
-.input.radio label,
-.input.checkbox label {
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-.input.radio label > input,
-.input.checkbox label > input {
-    margin-right: 1.0rem;
-}
-.input.radio label:first-of-type {
-    margin-bottom: 2.0rem;
-}
 
 /* Paginator */
 .paginator {
