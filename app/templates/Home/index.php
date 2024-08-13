@@ -20,25 +20,24 @@
             </div>
             <div class="table-container">
                 <h2>Relatórios</h2>
+                <button class="float-right button-new" style="background-color: #007bff; border: none;">
+                    <a href="<?= $this->Url->build(['controller' => 'Home', 'action' => 'add']); ?>" class="button-new">
+                        <i class="fa fa-plus"></i> Cadastrar Relatório
+                    </a>
+                </button>
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Customer Name</th>
-                            <th>Company</th>
-                            <th>Phone Number</th>
-                            <th>Email</th>
-                            <th>Country</th>
-                            <th>Status</th>
+                            <th>Competência</th>
+                            <th>Autor</th>
+                            <th>Ver</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Jane Cooper</td>
-                            <td>Microsoft</td>
-                            <td>(225) 555-0118</td>
-                            <td>jane@microsoft.com</td>
-                            <td>United States</td>
-                            <td class="active">Active</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                     </tbody>
                 </table>

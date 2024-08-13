@@ -91,3 +91,10 @@ body {
 .table th {
     background-color: #f0f0f0;
 }
+
+.button-new {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
