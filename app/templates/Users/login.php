@@ -16,7 +16,7 @@
             <p>Gera o relatório certo ai pae</p>
             <?= $this->Form->create(null, ['url' => ['controller' => 'Users', 'action' => 'login']]) ?>
                 <?= $this->Form->control('email', ['label' => false, 'placeholder' => 'Email', 'class' => 'input-field']); ?>
-                <?= $this->Form->control('password', ['label' => false, 'placeholder' => 'Password', 'class' => 'input-field']); ?>
+                <?= $this->Form->control('senha', ['label' => false, 'type' => 'password', 'required' => true, 'placeholder' => 'Senha']) ?>
                 <button class="btn-primary login">Login</button>
             <?= $this->Form->end() ?>
             <div class="continue-with"><?= $this->Html->link('Cadastre-se', ['controller' => 'Pessoas', 'action' => 'add']) ?></div>

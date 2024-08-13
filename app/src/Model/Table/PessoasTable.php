@@ -29,4 +29,10 @@ class PessoasTable extends Table
 
         return $validator;
     }
+
+    public function findByEmail($email)
+    {
+        return $this->find()
+            ->where(['email' => $email]);
+    }
 }
