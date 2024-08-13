@@ -14,4 +14,9 @@ class HomeController extends AppController
 
         $this->set(compact('pessoa'));
     }
+
+    public function add()
+    {
+        $this->set(compact('pessoa'));
+    }
 }
