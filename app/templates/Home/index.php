@@ -19,7 +19,7 @@
                 <?= $this->Form->control('password', ['label' => false, 'placeholder' => 'Password', 'class' => 'input-field']); ?>
                 <button class="btn-primary login">Login</button>
             <?= $this->Form->end() ?>
-            <div class="continue-with"><?= $this->Html->link('Crie sua conta', ['controller' => 'Pessoas', 'action' => 'add']) ?></div>
+            <div class="continue-with"><?= $this->Html->link('Cadastre-se', ['controller' => 'Pessoas', 'action' => 'add']) ?></div>
         </div>
     </div>
 </body>
