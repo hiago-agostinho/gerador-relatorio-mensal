@@ -98,3 +98,19 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.div-left {
+    margin-left: 20px
+}
+
+.btn-remove {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.btn-remove:hover {
+    background-color: #c82333;
+}

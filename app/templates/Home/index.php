@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <h2>Dashboard</h2>
+            <h2 style="color: white">Dashboard</h2>
             <ul>
                 <li><a href="#">Dashboard</a></li>
             </ul>
@@ -22,7 +22,7 @@
                 <h2>Relatórios</h2>
                 <button class="float-right button-new" style="background-color: #007bff; border: none;">
                     <a href="<?= $this->Url->build(['controller' => 'Home', 'action' => 'add']); ?>" class="button-new">
-                        <i class="fa fa-plus"></i> Cadastrar Relatório
+                        Cadastrar Relatório
                     </a>
                 </button>
                 <table class="table">
